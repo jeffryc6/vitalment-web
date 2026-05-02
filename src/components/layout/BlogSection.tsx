@@ -7,9 +7,18 @@ import { ArrowUpRight, Calendar, User } from 'lucide-react';
 const blogPosts = [
   {
     id: 1,
-    title: "El Poder de los Hábitos: De la Autodestrucción al Amor Propio",
+    title: "Resiliencia: El poder de levantarse tras un accidente",
     category: "Superación",
-    summary: "La historia de Diego: Cómo dejar el alcohol después de 20 años y transformar el cuerpo y la mente.",
+    summary: "Historias reales de personas que reconstruyeron su vida física y mentalmente después de un evento traumático.",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2020&auto=format&fit=crop",
+    author: "Equipo VitalMente",
+    date: "02 May 2026"
+  },
+  {
+    id: 2,
+    title: "De la Autodestrucción al Amor Propio",
+    category: "Superación",
+    summary: "La historia de Diego: Cómo dejar vicios de 20 años y transformar el cuerpo a través de la disciplina.",
     image: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=2076&auto=format&fit=crop",
     author: "Dra. Maricel Muñoz",
     date: "28 Abr 2026"

@@ -21,6 +21,7 @@ const Navbar = () => {
     { name: 'Inicio', href: '/' },
     { name: 'Historias', href: '#historias' },
     { name: 'Pilares', href: '#pilares' },
+    { name: 'Suplementos', href: '#productos' },
     { name: 'Reservar', href: '#reservar' },
   ];
 
@@ -28,13 +29,12 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <Link href="/" className="flex items-center space-x-2 group">
-            <div className="bg-vital-teal p-2 rounded-lg group-hover:rotate-12 transition-transform">
-              <Heart className="w-6 h-6 text-white" />
-            </div>
-            <span className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-vital-teal' : 'text-white'}`}>
-              Vital<span className="text-vital-orange">Mente</span>
-            </span>
+          <Link href="/" className="flex items-center space-x-3 group">
+            <img 
+              src="/logo.png" 
+              alt="VitalMente Logo" 
+              className="h-12 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Nav */}

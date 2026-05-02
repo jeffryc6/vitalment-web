@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Brain, Heart, Zap, Sparkles, Target, Users } from 'lucide-react';
+import { Brain, Heart, Zap, Sparkles, Target, Users, Activity } from 'lucide-react';
 
 const PillarCard = ({ icon: Icon, title, description, color, delay }: { icon: any, title: string, description: string, color: string, delay: number }) => (
   <motion.div
@@ -23,25 +23,32 @@ const PillarCard = ({ icon: Icon, title, description, color, delay }: { icon: an
 const Pillars = () => {
   const pillars = [
     {
-      icon: Brain,
-      title: "Vencer la Mente",
-      description: "El cambio físico comienza con un quiebre emocional. Trabajamos en la raíz de tus hábitos para eliminar el autosabotaje.",
-      color: "bg-vital-teal",
+      icon: Activity,
+      title: "Nutrición Clínica",
+      description: "Especialistas en regulación metabólica, pérdida de peso sostenible y nutrición funcional para la salud a largo plazo.",
+      color: "bg-vital-orange",
       delay: 0.1
     },
     {
-      icon: Zap,
-      title: "Activar Metabolismo",
-      description: "Desmitificamos el metabolismo lento. Aprende a nutrir tu cuerpo y ganar masa muscular para una energía inagotable.",
-      color: "bg-vital-orange",
+      icon: Brain,
+      title: "Psicología & Adicciones",
+      description: "Acompañamiento experto para la superación de vicios, traumas y el fortalecimiento de la resiliencia mental.",
+      color: "bg-vital-teal",
       delay: 0.2
     },
     {
       icon: Heart,
-      title: "Nutrición Consciente",
-      description: "No es dejar de comer, es aprender a elegir. El plato ideal equilibra proteínas, vegetales y carbohidratos funcionales.",
+      title: "Rehabilitación Física",
+      description: "Programas personalizados de recuperación post-accidente para recuperar movilidad, fuerza y confianza.",
       color: "bg-teal-600",
       delay: 0.3
+    },
+    {
+      icon: Users,
+      title: "Grupos de Apoyo",
+      description: "Una comunidad vibrante donde compartimos historias de éxito, motivación y apoyo mutuo constante.",
+      color: "bg-slate-700",
+      delay: 0.4
     }
   ];
 
@@ -55,7 +62,7 @@ const Pillars = () => {
             viewport={{ once: true }}
             className="text-vital-teal font-bold tracking-widest uppercase text-sm"
           >
-            Nuestra Metodología
+            Acompañamiento 360°
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
@@ -64,20 +71,14 @@ const Pillars = () => {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold font-display text-vital-slate mt-4 mb-6"
           >
-            Los Pilares de tu <span className="text-vital-orange">Nueva Vida</span>
+            Ciencia Médica y <span className="text-vital-orange">Fortaleza Mental</span>
           </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-slate-600 text-lg"
-          >
-            En VitalMente abordamos tu salud desde una perspectiva 360°, asegurando que los resultados sean sostenibles y profundos.
-          </motion.p>
+          <p className="text-slate-600 text-lg">
+            Combinamos diferentes disciplinas para asegurar una recuperación y transformación real y duradera.
+          </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {pillars.map((pillar, index) => (
             <PillarCard key={index} {...pillar} />
           ))}

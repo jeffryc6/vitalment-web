@@ -56,7 +56,7 @@ const BookingForm = () => {
               Comienza tu Camino a la <span className="text-vital-teal">Plenitud</span>
             </motion.h2>
             <p className="text-slate-300 text-lg mb-10 leading-relaxed">
-              Recibe asesoría personalizada con la Dra. Maricel Muñoz. Juntos diseñaremos un plan integral que se adapte a tu ritmo de vida, tus metas y tu salud mental.
+              Recibe asesoría personalizada con nuestro equipo multidisciplinario. Médicos, nutricionistas y psicólogos trabajando juntos para diseñar un plan integral que reconstruya tu salud física y mental.
             </p>
             
             <div className="space-y-6">

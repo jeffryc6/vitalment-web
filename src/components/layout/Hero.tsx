@@ -31,17 +31,17 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold font-display text-white mb-6 leading-tight"
           >
-            Mente, Cuerpo y <span className="text-transparent bg-clip-text bg-gradient-to-r from-vital-teal to-vital-orange">Espíritu</span>
+            El poder de <span className="text-transparent bg-clip-text bg-gradient-to-r from-vital-teal to-vital-orange">levantarse</span> y volver a empezar
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-xl text-slate-300 mb-10 max-w-2xl"
+            className="text-xl text-slate-300 mb-10 max-w-3xl"
           >
-            Resiliencia, nutrición y salud mental para reconstruir tu vida desde cero. 
-            No es solo contar calorías, es redescubrir tu vitalidad.
+            <strong>Historias reales de resiliencia.</strong> Superación tras accidentes, cambios profundos de hábitos y reconstrucción mental. 
+            Te acompañamos con nutrición clínica, psicología y medicina integral.
           </motion.p>
 
           <motion.div
@@ -51,11 +51,11 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4"
           >
             <button className="bg-vital-orange hover:bg-vital-orange/90 text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-vital-orange/20 transition-all flex items-center justify-center space-x-2">
-              <span>Inicia tu Cambio</span>
+              <span>Ver Historias de Éxito</span>
               <ArrowRight className="w-5 h-5" />
             </button>
             <button className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white px-10 py-4 rounded-full font-bold text-lg border border-white/10 transition-all">
-              Conoce las Historias
+              Conoce al Equipo Médico
             </button>
           </motion.div>
 

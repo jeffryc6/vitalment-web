@@ -1,6 +1,6 @@
 # VitalMente 🌿
 
-**Transformación Integral: Mente, Cuerpo y Espíritu.**
+**Mente sana, cuerpo fuerte.**
 
 VitalMente es una plataforma diseñada para inspirar y guiar a personas en su camino hacia una vida plena. Enfocada en la resiliencia, la nutrición consciente y la salud mental, combina historias reales de superación con el conocimiento experto de la Dra. Maricel Muñoz.
 

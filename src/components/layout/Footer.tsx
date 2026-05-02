@@ -9,12 +9,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-6">
-              <div className="bg-vital-teal p-1.5 rounded-lg">
-                <Heart className="w-5 h-5 text-white" />
-              </div>
-              <span className="text-xl font-bold text-vital-slate tracking-tight">
-                Vital<span className="text-vital-orange">Mente</span>
-              </span>
+              <img 
+                src="/logo.png" 
+                alt="VitalMente Logo" 
+                className="h-10 w-auto object-contain"
+              />
             </Link>
             <p className="text-slate-500 mb-8 leading-relaxed">
               Transformación integral de mente, cuerpo y espíritu. Redescubre tu vitalidad con nosotros.
