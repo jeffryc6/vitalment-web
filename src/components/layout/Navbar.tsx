@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, Heart, Brain, Dumbbell } from 'lucide-react';
+import { Menu, X, Heart, Brain, Dumbbell, ShoppingCart } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
@@ -20,9 +20,8 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Inicio', href: '/' },
     { name: 'Historias', href: '#historias' },
-    { name: 'Pilares', href: '#pilares' },
     { name: 'Suplementos', href: '#productos' },
-    { name: 'Reservar', href: '#reservar' },
+    { name: 'Hacer Pedido', href: '#pedido' },
   ];
 
   return (
@@ -48,9 +47,10 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <button className="bg-vital-orange hover:bg-vital-orange/90 text-white px-6 py-2 rounded-full font-semibold transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
-              Agenda tu Cita
-            </button>
+            <Link href="#pedido" className="relative bg-vital-orange hover:bg-vital-orange/90 text-white px-6 py-2 rounded-full font-semibold transition-all shadow-md hover:shadow-lg flex items-center space-x-2">
+              <ShoppingCart className="w-4 h-4" />
+              <span>Ver Carrito</span>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -85,9 +85,10 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <button className="w-full bg-vital-teal text-white px-6 py-4 rounded-xl font-bold shadow-md">
-                Agenda tu Cita
-              </button>
+              <Link href="#pedido" onClick={() => setIsOpen(false)} className="w-full bg-vital-teal text-white px-6 py-4 rounded-xl font-bold shadow-md flex items-center justify-center space-x-2">
+                <ShoppingCart className="w-5 h-5" />
+                <span>Hacer Pedido</span>
+              </Link>
             </div>
           </motion.div>
         )}

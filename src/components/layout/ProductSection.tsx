@@ -6,39 +6,39 @@ import { Heart, ShoppingCart, CheckCircle2 } from 'lucide-react';
 
 const products = [
   {
-    name: "A THRU Z Multi Vitamin",
-    subtitle: "Whole Body Support",
-    description: "Más que un multivitamínico promedio. Cobertura completa de nutrientes para energía, metabolismo, y salud inmunológica.",
-    image: "/products/Screenshot 2026-05-02 141409.png",
-    benefits: ["Energía y Metabolismo", "Salud del Corazón y Cerebro", "Apoyo Inmunológico", "Cobertura Total"]
+    name: "Earth's Creation: A THRU Z Multi Vitamin",
+    subtitle: "Soporte Integral para el Cuerpo",
+    description: "Multivitamínico de alta potencia con cobertura completa de nutrientes para optimizar tu metabolismo y fortalecer tu sistema inmunológico.",
+    image: "/products/ec1.jpeg",
+    benefits: ["Energía y Metabolismo", "Salud Cardiovascular", "Apoyo Inmunológico", "Nutrición Celular"]
   },
   {
-    name: "Natural Triple Omega 3,6,9",
-    subtitle: "Heart Health",
-    description: "El poder del Omega 3-6-9. Apoya la salud del corazón, cerebro, piel y función inmunológica.",
-    image: "/products/Screenshot 2026-05-02 141416.png",
-    benefits: ["Linaza, Pescado y Onagra", "Salud Cardiovascular", "Niveles de Colesterol", "Apoyo a la Piel"]
+    name: "Earth's Creation: Natural Triple Omega 3,6,9",
+    subtitle: "Salud del Corazón y Cerebro",
+    description: "Mezcla premium de ácidos grasos esenciales para mantener niveles saludables de colesterol y apoyar la función cognitiva.",
+    image: "/products/ec2.jpeg",
+    benefits: ["Pescado, Linaza y Onagra", "Función Cerebral", "Salud Cardiovascular", "Bienestar de la Piel"]
   },
   {
-    name: "Vitamin D3 + K2",
-    subtitle: "Bone Health",
-    description: "Apoyo inmunológico en el que puedes confiar y mejor absorción de calcio para huesos fuertes.",
-    image: "/products/Screenshot 2026-05-02 141423.png",
-    benefits: ["Apoyo Inmunológico", "Mejor Absorción de Calcio", "Huesos Saludables", "Salud del Corazón"]
+    name: "Earth's Creation: Vitamin D3 + K2",
+    subtitle: "Salud Ósea e Inmunológica",
+    description: "Combinación sinérgica para una máxima absorción de calcio y un sistema inmunológico impenetrable.",
+    image: "/products/ec3.jpeg",
+    benefits: ["Densidad Ósea", "Absorción Superior", "Salud Arterial", "Vitalidad Diaria"]
   },
   {
-    name: "Apple Cider Vinegar Gummies",
-    subtitle: "Gut Health Made Easy",
-    description: "Salud intestinal fácil. Gomitas con 'La Madre' para mejor digestión y control del apetito.",
-    image: "/products/Screenshot 2026-05-02 141429.png",
-    benefits: ["Mejor Digestión", "Menos Hinchazón", "Apoyo al Metabolismo", "Control de Apetito"]
+    name: "Earth's Creation: Apple Cider Vinegar Gummies",
+    subtitle: "Salud Digestiva Simplificada",
+    description: "Gomitas deliciosas con 'La Madre' para apoyar la digestión, el metabolismo y el control natural del apetito.",
+    image: "/products/ec4.jpeg",
+    benefits: ["Digestión Saludable", "Control de Peso", "Desintoxicación Natural", "Sabor Increíble"]
   },
   {
-    name: "Magnesium Citrate Gummies",
-    subtitle: "Relax & Recover",
-    description: "Relajación muscular natural. Apoya la calma, el sueño y reduce la tensión muscular.",
-    image: "/products/Screenshot 2026-05-02 141436.png",
-    benefits: ["Calma y Sueño", "Reduce la Tensión", "Relajación Muscular", "Sabor Delicioso"]
+    name: "Earth's Creation: Magnesium Citrate Gummies",
+    subtitle: "Relajación y Recuperación",
+    description: "Relajante muscular natural diseñado para reducir la tensión, mejorar el sueño y acelerar la recuperación física.",
+    image: "/products/ec5.jpeg",
+    benefits: ["Relajación Muscular", "Mejor Calidad de Sueño", "Reducción de Estrés", "Recuperación Post-Entreno"]
   }
 ];
 

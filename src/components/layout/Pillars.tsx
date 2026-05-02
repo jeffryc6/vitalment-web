@@ -24,29 +24,29 @@ const Pillars = () => {
   const pillars = [
     {
       icon: Activity,
-      title: "Nutrición Clínica",
-      description: "Especialistas en regulación metabólica, pérdida de peso sostenible y nutrición funcional para la salud a largo plazo.",
+      title: "Nutrición con Ciencia",
+      description: "Suplementos de grado clínico diseñados por Earth's Creation para optimizar tu metabolismo y asegurar que cada nutriente cuente en tu proceso.",
       color: "bg-vital-orange",
       delay: 0.1
     },
     {
       icon: Brain,
-      title: "Psicología & Adicciones",
-      description: "Acompañamiento experto para la superación de vicios, traumas y el fortalecimiento de la resiliencia mental.",
+      title: "Resiliencia Mental",
+      description: "Fórmulas avanzadas para el cerebro que apoyan la calma y el enfoque, permitiéndote mantener la fortaleza mental necesaria para tu cambio.",
       color: "bg-vital-teal",
       delay: 0.2
     },
     {
       icon: Heart,
-      title: "Rehabilitación Física",
-      description: "Programas personalizados de recuperación post-accidente para recuperar movilidad, fuerza y confianza.",
+      title: "Recuperación Vital",
+      description: "Magnesio y Omegas de alta pureza para acelerar la recuperación física tras accidentes o entrenamientos intensos.",
       color: "bg-teal-600",
       delay: 0.3
     },
     {
       icon: Users,
-      title: "Grupos de Apoyo",
-      description: "Una comunidad vibrante donde compartimos historias de éxito, motivación y apoyo mutuo constante.",
+      title: "Comunidad Vital",
+      description: "Más que productos, somos una red de personas compartiendo historias de superación real apoyadas por nutrición de clase mundial.",
       color: "bg-slate-700",
       delay: 0.4
     }

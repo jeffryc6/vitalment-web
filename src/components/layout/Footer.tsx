@@ -28,24 +28,21 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-vital-slate font-bold mb-6">Explorar</h4>
+            <h4 className="text-vital-slate font-bold mb-6">Compañía</h4>
             <ul className="space-y-4">
-              {['Inicio', 'Historias de Éxito', 'Metodología', 'Blog de Salud', 'Preguntas Frecuentes'].map((item) => (
-                <li key={item}>
-                  <Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">{item}</Link>
-                </li>
-              ))}
+              <li><Link href="#historias" className="text-slate-500 hover:text-vital-teal transition-colors">Historias de Éxito</Link></li>
+              <li><Link href="#pedido" className="text-slate-500 hover:text-vital-teal transition-colors">Hacer Pedido</Link></li>
+              <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Sobre Nosotros</Link></li>
+              <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Contacto</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-vital-slate font-bold mb-6">Especialidades</h4>
+            <h4 className="text-vital-slate font-bold mb-6">Legal</h4>
             <ul className="space-y-4">
-              {['Nutrición Clínica', 'Salud Mental', 'Metabolismo', 'Fitness Integral', 'Meditación'].map((item) => (
-                <li key={item}>
-                  <Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">{item}</Link>
-                </li>
-              ))}
+              <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Términos de Uso</Link></li>
+              <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Privacidad</Link></li>
+              <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Envíos</Link></li>
             </ul>
           </div>
 

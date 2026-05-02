@@ -3,7 +3,7 @@ import Hero from '@/components/layout/Hero';
 import Pillars from '@/components/layout/Pillars';
 import ProductSection from '@/components/layout/ProductSection';
 import BlogSection from '@/components/layout/BlogSection';
-import BookingForm from '@/components/layout/BookingForm';
+import OrderForm from '@/components/layout/OrderForm';
 import Footer from '@/components/layout/Footer';
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <Pillars />
       <ProductSection />
       <BlogSection />
-      <BookingForm />
+      <OrderForm />
       <Footer />
     </main>
   );
