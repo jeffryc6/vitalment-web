@@ -30,17 +30,19 @@ const Footer = () => {
           <div>
             <h4 className="text-vital-slate font-bold mb-6">Compañía</h4>
             <ul className="space-y-4">
-              <li><Link href="#historias" className="text-slate-500 hover:text-vital-teal transition-colors">Historias de Éxito</Link></li>
-              <li><Link href="#pedido" className="text-slate-500 hover:text-vital-teal transition-colors">Hacer Pedido</Link></li>
-              <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Sobre Nosotros</Link></li>
-              <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Contacto</Link></li>
+              <li><Link href="/nosotros" className="text-slate-500 hover:text-vital-teal transition-colors">Sobre Nosotros</Link></li>
+              <li><Link href="/#personal" className="text-slate-500 hover:text-vital-teal transition-colors">Terapia Individual</Link></li>
+              <li><Link href="/#corporate" className="text-slate-500 hover:text-vital-teal transition-colors">Para Empresas</Link></li>
+              <li><Link href="/app-movil" className="text-slate-500 hover:text-vital-teal transition-colors">App Móvil</Link></li>
+              <li><Link href="/productos" className="text-slate-500 hover:text-vital-teal transition-colors">Suplementos</Link></li>
+              <li><Link href="/#historias" className="text-slate-500 hover:text-vital-teal transition-colors">Historias de Éxito</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-vital-slate font-bold mb-6">Legal</h4>
             <ul className="space-y-4">
-              <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Términos de Uso</Link></li>
+              <li><Link href="/legal/terminos" className="text-slate-500 hover:text-vital-teal transition-colors">Términos de Uso</Link></li>
               <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Privacidad</Link></li>
               <li><Link href="#" className="text-slate-500 hover:text-vital-teal transition-colors">Envíos</Link></li>
             </ul>

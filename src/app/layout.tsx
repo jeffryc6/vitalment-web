@@ -13,9 +13,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "VitalMente | Transformación Integral: Mente, Cuerpo y Espíritu",
-  description: "Plataforma de salud integral enfocada en resiliencia, nutrición consciente y salud mental. Redescubre tu vitalidad con la Dra. Maricel Muñoz.",
-  keywords: ["salud", "nutrición", "mente", "cuerpo", "espíritu", "metabolismo", "superación", "bienestar"],
+  title: "VitalMente | Bienestar Corporativo Integral",
+  description: "Plataforma de salud integral enfocada en resiliencia, nutrición consciente y salud mental. Redescubre tu vitalidad y potencia a tu equipo de trabajo.",
+  keywords: ["salud", "nutrición", "mente", "cuerpo", "espíritu", "metabolismo", "superación", "bienestar", "b2b", "corporativo"],
 };
 
 export default function RootLayout({

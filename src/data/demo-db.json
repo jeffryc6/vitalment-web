@@ -1,0 +1,73 @@
+{
+  "companies": [
+    {
+      "id": "comp-1",
+      "name": "Acme Corp",
+      "plan_type": "enterprise",
+      "user_limit": 50,
+      "credit_balance": 150
+    },
+    {
+      "id": "comp-2",
+      "name": "TechSoft Solutions",
+      "plan_type": "premium",
+      "user_limit": 20,
+      "credit_balance": 45
+    }
+  ],
+  "users": [
+    {
+      "id": "user-hr",
+      "email": "hr@acme.com",
+      "password": "password123",
+      "full_name": "Laura HR",
+      "role": "HR_Manager",
+      "company_id": "comp-1"
+    },
+    {
+      "id": "user-colab",
+      "email": "empleado@acme.com",
+      "password": "password123",
+      "full_name": "Carlos Rodríguez",
+      "role": "Colaborador",
+      "company_id": "comp-1"
+    },
+    {
+      "id": "user-prof",
+      "email": "dra.mendez@vitalmente.com",
+      "password": "password123",
+      "full_name": "Dra. Ana Méndez",
+      "role": "Profesional",
+      "company_id": null
+    },
+    {
+      "id": "user-b2c",
+      "email": "cliente@gmail.com",
+      "password": "password123",
+      "full_name": "Juan Pérez",
+      "role": "B2C_User",
+      "company_id": null
+    }
+  ],
+  "professionals": [
+    {
+      "id": "user-prof",
+      "specialty": "Psicóloga Clínica",
+      "session_fee": 50.00,
+      "is_verified": true,
+      "bio": "Especialista en manejo de ansiedad y estrés laboral con enfoque cognitivo-conductual.",
+      "video_url": "https://example.com/video.mp4"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "appt-1",
+      "patient_id": "user-colab",
+      "professional_id": "user-prof",
+      "date_time": "2026-05-10T09:00:00Z",
+      "status": "confirmed",
+      "payment_method": "corporate_credit",
+      "reason": "Manejo de ansiedad por carga laboral"
+    }
+  ]
+}

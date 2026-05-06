@@ -20,7 +20,7 @@ const blogPosts = [
     category: "Superación",
     summary: "La historia de Diego: Cómo dejar vicios de 20 años y transformar el cuerpo a través de la disciplina.",
     image: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=2076&auto=format&fit=crop",
-    author: "Dra. Maricel Muñoz",
+    author: "Equipo Clínico",
     date: "28 Abr 2026"
   },
   {
@@ -29,7 +29,7 @@ const blogPosts = [
     category: "Metabolismo",
     summary: "Se desmitifica la idea de que el metabolismo lento es una condena inevitable. Aprende a regularlo.",
     image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop",
-    author: "Dra. Maricel Muñoz",
+    author: "Equipo Clínico",
     date: "30 Abr 2026"
   },
   {
@@ -38,7 +38,7 @@ const blogPosts = [
     category: "Nutrición",
     summary: "¿Por qué comerse una galleta no es igual a comerse una manzana? Descubre el impacto hormonal.",
     image: "https://images.unsplash.com/photo-1494390248081-4e521a5940db?q=80&w=2006&auto=format&fit=crop",
-    author: "Dra. Maricel Muñoz",
+    author: "Equipo Clínico",
     date: "01 May 2026"
   }
 ];

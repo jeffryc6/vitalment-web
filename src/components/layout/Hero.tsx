@@ -32,7 +32,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold font-display text-white mb-6 leading-tight"
           >
-            El poder de <span className="text-transparent bg-clip-text bg-gradient-to-r from-vital-teal to-vital-orange">levantarse</span> y volver a empezar
+            Bienestar integral para ti y tu <span className="text-transparent bg-clip-text bg-gradient-to-r from-vital-teal to-vital-orange">empresa</span>
           </motion.h1>
 
           <motion.p
@@ -41,22 +41,22 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-xl text-slate-300 mb-10 max-w-3xl"
           >
-            <strong>Historias reales de resiliencia.</strong> Superación tras accidentes, cambios profundos de hábitos y reconstrucción mental. 
-            Te acompañamos con nutrición clínica, psicología y medicina integral.
+            <strong>El ecosistema digital de salud mental y física.</strong> 
+            Conectamos a profesionales de primer nivel con clientes independientes y equipos corporativos para reducir el burnout y transformar vidas.
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
           >
-            <Link href="#productos" className="bg-vital-orange hover:bg-vital-orange/90 text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-vital-orange/20 transition-all flex items-center justify-center space-x-2">
-              <span>Conoce Earth's Creation</span>
+            <Link href="/auth/registro" className="bg-vital-teal hover:bg-vital-teal/90 text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-vital-teal/20 transition-all flex items-center justify-center space-x-2">
+              <span>Únete Gratis</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
-            <Link href="#historias" className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white px-10 py-4 rounded-full font-bold text-lg border border-white/10 transition-all text-center">
-              Ver Historias de Éxito
+            <Link href="#corporate" className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-full font-bold text-lg border border-white/10 transition-all text-center">
+              VitalMente Corporate
             </Link>
           </motion.div>
 
